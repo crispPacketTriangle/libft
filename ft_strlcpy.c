@@ -34,31 +34,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	return (len);
 }
 
-/* int	main()
-{
-	char	dest[10];
-	memset(dest, 'a', 10);
-	
-	const char	*source = "coucou";
-
-	char	dest2[10];
-	memset(dest2, 'a', 10);
-	
-	const char	*source2 = "coucou";
-// 	printf("compare: %d\n", strcmp(dest, source));
-
-//	ft_strlcpy(dest, source, 5);
-
-//	printf("%s\n", dest);
-
-//	size_t test = -1;
-//	printf("test: %lu\n", test);
-
-	int g;
-	g = ft_strlcpy(dest2, source2, -1);
-	printf("len2: %d dest2: %s\n", g, dest2);
-
-	int t;
-	t = strlcpy(dest, source, -1);
-	printf("len: %d dest: %s\n", t, dest);
-} */

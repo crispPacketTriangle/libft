@@ -39,13 +39,3 @@ char	*ft_strrchr(const char *s, int c)
 	return (f);
 }
 
-/* int     main()
-{
-        char *s = "hskslsksdghsdfhs";
-
-        char *t;
-
-        t = ft_strrchr(s, 'd');
-
-        printf("%c - %c\n", *t, *(t + 1));
-} */

@@ -35,16 +35,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	return (s_len + d_len);
 }
 
-/* int     main()
-{
-	char dest[30]; 
-	memset(dest, 0, 30);
-	char d[] = "b";
-	char s[] = "AAAAAAAAA";
-	char d1[] = "b";
-	char s1[] = "AAAAAAAAA";
-	printf("ft_len: %lu\n", ft_strlcat(d, s, 6));
-	printf("len: %lu\n", strlcat(d1, s1, 6));
-	printf("ft_dest: %s\n", d);
-	printf("dest: %s\n", d1);
-} */

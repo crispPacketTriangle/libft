@@ -19,14 +19,12 @@ static int	count_b(const char *s1, const char *set, int len);
 char	*ft_strtrim(const char *s1, const char *set)
 {
 	int		start;
-	int		end;
 	int		len;
 	int		size;
 	char	*ptr;
 
 	len = ft_strlen(s1);
 	start = count_f(s1, set);
-	end = len - (count_b(s1, set, len));
 	size = len - (count_f(s1, set)) - (count_b(s1, set, len));
 	if (size < 1)
 		size = 0;
@@ -77,14 +75,3 @@ static int	count_b(const char *s1, const char *set, int len)
 	return (i);
 }
 
-/* int main()
-{
-	char    *set = " x";
-	char    *s1 = "   xxx   xxx";
-	char	*res = ft_strtrim(s1, set);
-
-	printf("-%s", res);
-	printf("-\n");
-	free(res);
-
-} */

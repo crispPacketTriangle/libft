@@ -24,18 +24,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 
-/* void	f(unsigned int a, char *b)
-{
-	if (*b == 'l')
-		*b = *b + a;
-}
-
-int	main()
-{
-	char	str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
-	void	(*ptr)(unsigned int, char*);
-
-	ptr = &f;
-	ft_striteri(str, ptr); 
-	printf("%s\n", str);
-} */

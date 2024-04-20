@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>
+# include <stdarg.h>
 
 // get_next_line buffer size
 # ifndef BUFFER_SIZE
@@ -72,6 +73,22 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstnew(void *content);
 t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+// ft_printf
+int		ft_printf(const char *args, ...);
+int		pf_isin(char c, const char *g_types);
+int		u_f(va_list *ap);
+int		c_f(va_list *ap);
+int		s_f(va_list *ap);
+int		p_f(va_list *ap);
+int		x_f(va_list *ap);
+int		b_f(va_list *ap);
+int		xup_f(va_list *ap);
+void	w_out(int *i, const char *args, va_list *ap);
+int		call(int f, va_list *ap);
+int		base(long long x, char *base, int b);
+int		rec(long long x, char *base, int b, int n);
+int		ubase(unsigned long long x, char *base, int b);
+int		urec(unsigned long long x, char *base, int b, int n);
 // get_next_line
 char	*get_next_line(int fd);
 char	*fetch(int fd, char **ln);
@@ -83,6 +100,6 @@ char	*set_rem(char **ln, int fd);
 int		gnl_strlen(char *str);
 char	*gnl_strjoin(char *buff, char **ln, int fd);
 char	*set_line(char	**ln, int fd);
-// get_next_line_end
 
 #endif
+

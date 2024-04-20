@@ -50,14 +50,3 @@ static int	match(const char *big, const char *little, size_t i, size_t len)
 	return (1);
 }
 
-/* #include <stdio.h>
-int	main()
-{
-	const char *one = "aaabcabcd";
-	const char *two = "cd";
-
-	if (ft_strnstr(one, two, 8) == NULL)
-		printf("null");
-	else
-		printf("%s\n", ft_strnstr(one, two, 23));
-} */

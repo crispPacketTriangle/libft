@@ -28,10 +28,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	return (0);
 }
 
-/* int	main()
-{
-	char	*str1 = "ABA";
-	char	*str2 = "ABZ";
-
-	printf("diff: %d", ft_strncmp(str1, str2, 3));
-} */

@@ -65,7 +65,3 @@ static void	prnt(char *arr, int i, int fd)
 	}
 }
 
-/* int	main()
-{
-	ft_putnbr_fd(3975, 1);
-} */

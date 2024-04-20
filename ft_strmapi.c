@@ -33,18 +33,3 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	return (ptr);
 }
 
-/* char	f(unsigned int a, char b)
-{
-	return (b + a);
-} */
-
-/* int	main()
-{
-	char	*str = "abc";
-	char	*res;
-	char	(*ptr)(unsigned int, char);
-
-	ptr = &f;
-	res = ft_strmapi(str, ptr);
-	printf("%s\n", res);
-} */

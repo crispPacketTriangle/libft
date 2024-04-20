@@ -110,8 +110,3 @@ static char	*mem(int len)
 	return (ptr);
 }
 
-/* int	main()
-{
-	printf("units: %s\n", ft_itoa(-2147483648));
-	printf("units: %s\n", ft_itoa(0));
-} */

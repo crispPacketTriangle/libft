@@ -94,31 +94,4 @@ static void	free_all(char **arr)
 	}
 	free(arr);
 }
-/* int	main(void)
-{
-	//char	*str = 1;
-	//char	c = ' ';
-	char	**arr;
 
-	//arr = ft_split("      split       this for   me  !       ", ' ');
-	arr = ft_split("^^^1^^2a,^^^^3^^^^--h^^^^", '^');
-
-	//if (arr[1] == NULL)
-	//	printf("NULL!\n");
-
-	int i = 0;
-	if (arr)
-	{
-		while (arr[i])
-		{
-			printf("%s\n", arr[i]);
-			i++;
-		}
-	}
-
-	i = 0;
-	while (arr[i])
-	{
-		free(arr[i]);
-	}
-} */ 

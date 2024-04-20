@@ -63,7 +63,3 @@ static char	*join(char *ptr, const char *s1, const char *s2)
 	return (ptr);
 }
 
-/* int main()
-{
-	printf("%s\n", ft_strjoin("hello", "world"));
-} */

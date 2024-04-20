@@ -30,18 +30,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	return (0);
 }
 
-/* int	main()
-{
-	char	str1[2] = {0, 5};
-	char	str2[2] = {-128, 0};
-
-	const void	*ptr1;
-	const void	*ptr2;
-
-	ptr1 = (const void *)str1;
-	ptr2 = (const void *)str2;
-
-	//printf("%d\n", memcmp(str1, str2, 1));
-	printf("%d\n", ft_memcmp(str1, str2, 1));
-	// printf("%c\n", -128);
-} */

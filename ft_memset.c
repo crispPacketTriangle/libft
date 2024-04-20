@@ -27,15 +27,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-/* int	main()
-{
-	void *s;
-	char *res;
-	char sp[5];
-	s = &sp;
-	char ch = 't';
-	size_t size = 4;
-
-	res = ft_memset(s, ch, size);
-	printf("%s\n", res);
-} */

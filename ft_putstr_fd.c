@@ -22,8 +22,3 @@ void	ft_putstr_fd(char *s, int fd)
 	write(fd, s, i);
 }
 
-/* int	main()
-{
-	char	*str = "hello";
-	ft_putstr_fd(str, 1);
-} */

@@ -33,12 +33,3 @@ char	*ft_strdup(const char *s)
 	return (ptr); 
 }
 
-/* int main()
-{
-	char	*copy;
-	char	*str = "copy this string";
-
-	copy = ft_strdup(str);
-
-	printf("%s\n", copy);
-} */

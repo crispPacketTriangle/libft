@@ -24,9 +24,7 @@ int	ft_atoi(const char *nptr)
 	i = 0;
 	sign = 1;
 	while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == ' ')
-	{
 		i++;
-	}
 	if (nptr[i] == '-' || nptr[i] == '+')
 	{
 		if (nptr[i] == '-')
@@ -75,8 +73,4 @@ static int	appnd_digits(const char *nptr, int i, int sign)
 	}
 	return (conv(digits, n) * sign); 
 }
-/* int	main()
-{
-	const char *input = "+0000000000000000000000000000000000000000000000000000123";
-	printf("%d\n", ft_atoi(input));
-} */
+

@@ -112,3 +112,4 @@ char	*freel(char **ln, int fd)
 	free(ln[fd]);
 	return (NULL);
 }
+

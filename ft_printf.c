@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int			(*g_fc_arr[8])(va_list *ap) = {b_f, b_f, u_f, 
 	c_f, s_f, p_f, x_f, xup_f};
@@ -80,3 +80,4 @@ int	call(int f, va_list *ap)
 	i = g_fc_arr[f](ap);
 	return (i);
 }
+

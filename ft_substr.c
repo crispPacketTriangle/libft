@@ -19,7 +19,6 @@ char	*ft_substr(const char *s, unsigned int st, size_t len)
 {
 	unsigned int	sz;
 	unsigned int	size;
-	unsigned int	i;
 	char			*ptr;
 
 	sz = 0;
@@ -37,7 +36,6 @@ char	*ft_substr(const char *s, unsigned int st, size_t len)
 	ptr = (char *)malloc(size * sizeof(char));
 	if (!ptr)
 		return (NULL);
-	i = 0;
 	if (len == 1 && st == 1)
 		return (sngl_char(s, ptr, st));
 	else
@@ -66,23 +64,3 @@ static char	*sngl_char(const char *s, char *ptr, unsigned int st)
 	return (ptr);
 }
 
-/* int main()
-{
-	char *sub;
-	//const char *str = "tripouille";
-
-
-	sub = ft_substr("hola", 2, 1);
-
-	printf("sub: %s\n", sub);
-
-	sub = ft_substr("tripouille", 0, 4200);
-
-	printf("sub: %s\n", sub);
-
-	int i = 0;
-	while (sub[i])
-		i++;
-	printf("%d\n", i);
-
-} */

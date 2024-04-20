@@ -39,17 +39,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-/* int	main()
-{
-	char	dest[10] = {'a', 'b', 'c', 'i', 'i', 'i', 'i'};
-	void	*src;
-	void	*dst;
-	char	*res;
-
-	dst = &dest[2];
-	src = &dest;
-
-	res = ft_memmove(dst, src, 6);
-	printf("%s\n", res);
-	printf("%s\n", dest);
-} */

@@ -31,20 +31,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-/* int	main()
-{
-	char	*str = "copy this string";
-	char	dest[17];
-
-	const void	*ptrs;
-	void	*ptrd;
-	
-	ptrs = (const void *)str;
-	ptrd = &dest;
-
-	ptrd = ft_memcpy(NULL, NULL, 17);
-
-	printf("%s\n", dest);
-	
-
-} */

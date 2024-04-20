@@ -32,15 +32,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 
-/* int	main()
-{
-	char	*str = "trytofindQinthisstring";
-	const void	*ptr;
-	void	*res;
-
-	ptr = (const void *)&str[4];
-	res = ft_memchr(ptr, 'Q', 9);
-
-	char	*p = (char *)res;
-	printf("res: %c\n", p[0]);
-} */

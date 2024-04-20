@@ -30,13 +30,3 @@ char	*ft_strchr(const char *s, int c)
 	return (NULL);
 }
 
-/* int	main()
-{
-	char *s = "hskslsksdfhsdfhs";
-
-	char *t;
-
-	t = ft_strchr(s, 'l');
-
-	printf("%c\n", *t);
-} */
