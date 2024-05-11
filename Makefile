@@ -17,7 +17,6 @@ SRCS=ft_atoi.c ft_memchr.c ft_putstr_fd.c ft_strmapi.c ft_bzero.c \
 		ft_lstmap.c \
 
 OBJS = $(SRCS:.c=.o)
-BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 
 all: $(NAME)
 
@@ -25,10 +24,10 @@ $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 
 clean:
-	rm -rf $(OBJS) $(BONUS_OBJS)
+	rm -rf $(OBJS)
 
 fclean: clean
-	rm -Rf $(NAME)
+	rm -rf $(NAME)
 
 re: fclean all
 
